@@ -1,8 +1,10 @@
+
 import React, { use } from 'react';
 import Lottie from "lottie-react";
 // import React, {use} form 'react';
 import registerLottie from "../../assets/lotties/Analytics Character Animation.json"
 import { AuthContext } from '../../context/AuthContext/AuthContex';
+import GoogleLogin from '../Navbar/GoogleLogin';
 const Register = () => {
 
 
@@ -47,6 +49,7 @@ const Register = () => {
                                     <button className="btn btn-neutral mt-4">Register</button>
                                 </fieldset>
                             </form>
+                            <GoogleLogin></GoogleLogin>
                         </div>
                     </div>
                 </div>
